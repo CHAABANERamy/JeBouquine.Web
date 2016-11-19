@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node server.js",
-    "postinstall": "typings install && gulp",
-    "lite": "lite-server",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "typings": "typings"
+    "postinstall": "gulp"
+
   },
   "license": "ISC",
   "dependencies": {

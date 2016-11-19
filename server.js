@@ -1,4 +1,5 @@
-git initconst bodyParser = require('body-parser');
+const express = require('express');
+const bodyParser = require('body-parser');
 var app = express();
 
 app.set('port', (process.env.PORT || 8080));
